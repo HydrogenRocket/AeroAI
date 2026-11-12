@@ -1,0 +1,33 @@
+{
+  "aeroai.configuration.title": "AeroAI Settings",
+  "aeroai.configuration.section.aeroai.client.toml": "AeroAI Settings",
+  "aeroai.configuration.section.aeroai.client.toml.title": "AeroAI Settings",
+
+  "aeroai.configuration.general": "General",
+  "aeroai.configuration.general.tooltip": "Wake word and trigger behaviour",
+  "aeroai.configuration.enabled": "Enabled",
+  "aeroai.configuration.wakeWord": "Wake Word",
+  "aeroai.configuration.caseSensitive": "Case Sensitive Wake Word",
+  "aeroai.configuration.respondToSelf": "Respond To Own Messages",
+  "aeroai.configuration.respondToSystemMessages": "Respond To System Messages",
+  "aeroai.configuration.includeSenderName": "Tell Model Who Asked",
+  "aeroai.configuration.cooldownSeconds": "Cooldown (seconds)",
+
+  "aeroai.configuration.ollama": "Ollama",
+  "aeroai.configuration.ollama.tooltip": "Model and connection settings",
+  "aeroai.configuration.ollamaUrl": "Ollama URL",
+  "aeroai.configuration.model": "Model",
+  "aeroai.configuration.displayName": "Display Name",
+  "aeroai.configuration.systemPrompt": "System Prompt",
+  "aeroai.configuration.temperature": "Temperature",
+  "aeroai.configuration.maxTokens": "Max Tokens",
+  "aeroai.configuration.disableThinking": "Disable Thinking",
+  "aeroai.configuration.historySize": "Conversation Memory (exchanges)",
+  "aeroai.configuration.timeoutSeconds": "Request Timeout (seconds)",
+
+  "aeroai.configuration.output": "Output",
+  "aeroai.configuration.output.tooltip": "How replies are posted to chat",
+  "aeroai.configuration.messageFormat": "Message Format",
+  "aeroai.configuration.maxMessages": "Max Chat Messages Per Reply",
+  "aeroai.configuration.messageDelayMs": "Delay Between Messages (ms)"
+}

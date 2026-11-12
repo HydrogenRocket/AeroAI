@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - aeroai",
+        "order": 0
+      },
+      "projectName": "aeroai",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/media/aidan/1 TB Disk/Projects/AeroAI/build/moddev/clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/media/aidan/1 TB Disk/Projects/AeroAI/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003daeroai%%/media/aidan/1 TB Disk/Projects/AeroAI/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
